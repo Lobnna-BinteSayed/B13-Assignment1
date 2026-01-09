@@ -25,6 +25,11 @@ li{
     list-style: none;
 }
 
+.early-access-now-open{
+    padding: 5px;
+    display: flex;
+}
+
 .button button{
     background-color: rgb(28, 174, 28);
     margin: 10px 20px;
@@ -45,12 +50,22 @@ li{
     padding: 20px;
 }
 
+
+
 .bottom-button .left-button{
     background-color: rgb(28, 174, 28);
+    display: flex;
+
 }
 
 .bottom-button .right-button{
     background: none;
+    display: flex;
+}
+.bottom-button{
+    display: flex;
+    gap: 5px
+    ;
 }
 
 
@@ -59,12 +74,11 @@ li{
     width: 300px;
     padding: 10px;
     text-align:center;
-    background-color:rgba(237, 229, 213, 0.764);
+    background-color:rgba(237, 229, 213, 0.9
+    );
 }
 
-.card img{
-    color: orange;
-}
+
 
 .notes-section{
     align-items: center;
@@ -82,23 +96,25 @@ li{
 
 .second-brain-section{
     display: flex;
-    gap: 30px;
     justify-content: space-between;
     margin: 20px;
     padding: 20px;
 }
 .second-brain-section .image-section{
-    margin: 20px;
-    padding: 20px;
+   
+}
+.second-brain-section .image-section{
+    height: auto;
+    border-radius: 0
+    ;
 }
 .text-section{
-    align-items: center;
-    justify-content: center;
+    align-items:normal;
     flex-direction: column;
-    flex-wrap: wrap;
-    padding: 20px;
+    background-color: white;
 
 }
+.text-section ul{}
 .text-section ul li{
     display: flex;
 }
@@ -112,6 +128,15 @@ li{
     flex-wrap: wrap;
     padding: 20px;
 }
+.early-access-section button{
+    background-color: rgb(54, 222, 54);
+    display: flex;
+    margin: 20px;
+    padding: 20px
+    px 20px;
+    font-size: 1.2em;
+
+}
 
 .footer-section{
     padding: 20px;
@@ -120,3 +145,4 @@ li{
     display: flex;
     justify-content: space-between;
 }
+
