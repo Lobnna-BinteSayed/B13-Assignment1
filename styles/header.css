@@ -1,0 +1,104 @@
+body{
+    background-color: aliceblue;
+}
+.header-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+
+.button button{
+    background-color: rgb(28, 174, 28);
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+
+.banner-section{
+    align-items: center;
+    justify-content: center;
+    background-image:url(../assets/hero-bg.png);
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.bottom-button .left-button{
+    background-color: rgb(28, 174, 28);
+}
+
+.bottom-button .right-button{
+    background: none;
+}
+
+
+
+.card{
+    width: 300px;
+    padding: 10px;
+    text-align:center;
+    background-color:rgba(237, 229, 213, 0.764);
+}
+
+.card img{
+    color: orange;
+}
+
+.notes-section{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.notes-container{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.second-brain-section{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+.text-section{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.text-section ul li{
+    display: flex;
+}
